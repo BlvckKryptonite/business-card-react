@@ -142,7 +142,7 @@ button:focus-visible {
   text-align: center;
 }
 
-.about-container {
+.about-container, .interests-container {
   width: 400px;
   height: 400px;
   opacity: 1;
@@ -151,10 +151,33 @@ button:focus-visible {
   background-color: #1A1B21;
 }
 
-.about-me {
+.interests-container {
+  padding-top: 5px;
+  height: 200px;
+}
+
+.about-me, .interests {
   padding: 0 50px;
   font: "Inter";
   font-weight: 400;
   color: #F5F5F5;
   text-align: left;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  height: 60px;
+  background-color: #161619;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 20px;
 }
